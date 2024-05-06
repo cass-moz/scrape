@@ -12,7 +12,7 @@ import (
 type DriverName string
 
 const (
-	SQLite DriverName = "sqlite3"
+	SQLite DriverName = "sqlite"
 	MySQL  DriverName = "mysql"
 )
 

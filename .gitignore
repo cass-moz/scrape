@@ -36,3 +36,4 @@ coverage.html
 /internal/testdata/samples
 /internal/testdata/scraped
 # cmd/scrape/test_data
+dist/

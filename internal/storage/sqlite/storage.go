@@ -19,7 +19,7 @@ import (
 	"github.com/efixler/scrape/internal/storage"
 	"github.com/efixler/scrape/store"
 
-	_ "github.com/mattn/go-sqlite3"
+	_ "modernc.org/sqlite"
 )
 
 // Store is the sqlite implementation of the store.URLDataStore interface.

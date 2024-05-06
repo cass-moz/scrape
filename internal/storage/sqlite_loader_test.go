@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/efixler/scrape/database"
-	_ "github.com/mattn/go-sqlite3"
+	_ "modernc.org/sqlite"
 )
 
 const (
